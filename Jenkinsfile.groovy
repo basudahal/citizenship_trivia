@@ -37,7 +37,9 @@ pipeline {
             steps {
                 script {
                     withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: '7583a985-3166-43a1-9340-a2622c4794a9']]) {
-                        sh deployCommand
+                        dir('.ask/') {
+                            sh deployCommand
+                        }
                     }
                 }
             }

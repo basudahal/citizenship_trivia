@@ -1,0 +1,55 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Citizenship Trivia",
+          "examplePhrases": [
+            "Alexa open citizenship trivia",
+            "Alexa tell citizenship trivia to start a game",
+            "Alexa tell citizenship trivia I want to play"
+          ],
+          "keywords": [
+            "Citizenship",
+            "Trivia",
+            "civic",
+            "test",
+            "citizenship",
+            "quiz"
+          ],
+          "name": "Citizenship Trivia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/c61f/4c7b3858a8ab43f099aed309fe14e995/APP_ICON?versionId=dyEdjIxNi2uXsNGBoLmnuQLgkDreL_8s&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1543292767&Signature=YaN6CN3KQZ7ulg5zUj5OpfqfNfk%3D",
+          "description": "This is United States Citizenship trivia. There are 20 random questions. The civics test is an oral test and the USCIS Officer will ask the applicant up to 10 of the 100 civics questions. An applicant must answer 6 out of 10 questions correctly to pass the civics portion of the naturalization test",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/cdb6/06171aa5772c4664b44b76309e5392c1/APP_ICON_LARGE?versionId=joofOaPa7Z24yBFU_lf7mu_q9zZA4t37&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1543292767&Signature=DvJEGL5t3C6PurtmWgI1l410%2Btg%3D"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Start citizenship trivia, Alexa, start citizenship trivia.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/us-east-1_ask-custom-trivia-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://s3-us-west-2.amazonaws.com/spectra-bucket/Terms+of+Service.html",
+          "privacyPolicyUrl": "https://s3-us-west-2.amazonaws.com/spectra-bucket/Privacy+Policy.html"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

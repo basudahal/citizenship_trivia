@@ -208,9 +208,9 @@ module.exports = {
     },
     {
       'What is the name of the President of the United States now?': [
-        'Donald Trump',
+        'Joseph R Biden',
         'George W Bush',
-        'Bill Clinton',
+        'Donald J Trump',
         'Barack Obama',
       ],
     },
